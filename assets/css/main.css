@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -71,6 +72,8 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+
 
 /* Basic */
 
@@ -1302,6 +1305,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1547,6 +1551,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2648,13 +2654,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+
 			.image.fit {
 				margin: 2rem 0;
 			}
 
 			.image.main {
 				margin: 2rem 0;
-			}
+			} 
 
 		}
 
@@ -2749,6 +2756,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			
+			
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -2989,6 +2998,8 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+
 
 			header.major {
 				margin: 0 0 2rem 0;
@@ -4486,7 +4497,25 @@ input, select, textarea {
 
 		}
 
+
+		@media(min-width: 736px) {
+			.down {margin-bottom: 5.5em;}
+			.down2{padding-top: 4.3%;}
+		}
+		@media(min-width: 800px) {
+			.down2
+			 {padding-top: 6.3%;}
+			}
+			@media(min-width: 880px) {
+			.down2{padding-top: 7.8%;}
+			}
+			@media(min-width: 1040px) {
+				.down2{padding-top: 9.8%;}
+				}
+
 /* Nav Panel */
+
+
 
 	#navPanelToggle {
 		text-decoration: none;
